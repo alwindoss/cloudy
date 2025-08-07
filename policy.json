@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeInstances",
+                "s3:ListBuckets",
+                "rds:DescribeDBInstances",
+                "lambda:ListFunctions",
+                "ecs:ListClusters",
+                "ecs:DescribeClusters",
+                "iam:ListUsers"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
